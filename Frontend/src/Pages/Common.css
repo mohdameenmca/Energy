@@ -1,0 +1,52 @@
+.MainPage{
+    padding:2rem 0 0 6rem;
+  width: 60%;
+  margin: 0 10%;
+}
+.header_section{
+  display: flex;
+  justify-content: space-between;
+ 
+  
+}
+.card_bills,.due{
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+    margin: 0 auto;
+    
+    li{
+        display: flex;
+        list-style: none;
+        width: 100%;
+        margin: 0.4rem auto;
+        padding: 1rem 10rem;
+        background-color: whitesmoke;
+       justify-content: space-between;
+       align-items: center;
+        border-radius: 0.5rem;
+    }
+}
+input,.searchbox{
+    padding:0.4rem 1rem;
+    border-radius: 0.6rem;    
+}
+
+button{
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 60px;
+    border: none;
+    border-radius: 5px;
+    font-size: medium;
+    cursor: pointer;
+  }
+  button:hover{
+    font-size: large;
+  }
+
+
+  .due{
+    display: flex;
+  }

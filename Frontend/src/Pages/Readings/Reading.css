@@ -1,0 +1,23 @@
+
+
+button {
+  padding: 10px;
+  background-color: blueviolet;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 1rem;
+  padding:0.5rem 1rem;
+}
+
+
+
+button.selected {
+  background-color: green;
+  color: white;
+}
+
+.selected {
+  background-color: #007BFF;
+  color: white;
+}

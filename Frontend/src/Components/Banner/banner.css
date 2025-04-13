@@ -1,0 +1,10 @@
+.banner{
+    background-color: azure;
+    color: yellowgreen;
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+    padding: 3rem;
+    font-weight: 300;
+    font-size: large;
+}
